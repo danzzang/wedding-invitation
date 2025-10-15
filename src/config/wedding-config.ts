@@ -24,8 +24,8 @@ export const weddingConfig = {
   main: {
     title: "Wedding Invitation",
     image: "/images/ha0h-1fsi-bqt3.jpg",
-    date: "2026년 5월 16일 토요일 12시 30분",
-    venue: "웨딩홀 이름"
+    date: "2026년 3월 22일 일요일 13시 40분",
+    venue: "선릉 상록아트홀"
   },
 
   // 소개글
@@ -37,25 +37,25 @@ export const weddingConfig = {
   // 결혼식 일정
   date: {
     year: 2026,
-    month: 5,
-    day: 16,
-    hour: 12,
-    minute: 30,
-    displayDate: "2026.05.16 SAT PM 12:30",
+    month: 3,
+    day: 22,
+    hour: 13,
+    minute: 40,
+    displayDate: "2026.03.22 SUN PM 13:40",
   },
 
   // 장소 정보
   venue: {
-    name: "웨딩홀 이름",
-    address: "서울특별시 강남구 테헤란로 123\n웨딩홀 이름",
-    tel: "02-1234-5678",
-    naverMapId: "웨딩홀 이름", // 네이버 지도 검색용 장소명
+    name: "상록아트홀",
+    address: "서울 강남구 언주로 508 상록회관\n상록아트홀",
+    tel: "02-564-5757",
+    naverMapId: "상록아트홀", // 네이버 지도 검색용 장소명
     coordinates: {
-      latitude: 37.5665,
-      longitude: 126.9780,
+      latitude: 37.503985,
+      longitude: 127.042815,
     },
-    placeId: "123456789", // 네이버 지도 장소 ID
-    mapZoom: "17", // 지도 줌 레벨
+    placeId: "366784007", // 네이버 지도 장소 ID
+    mapZoom: "15.00", // 지도 줌 레벨
     mapNaverCoordinates: "14141300,4507203,15,0,0,0,dh", // 네이버 지도 길찾기 URL용 좌표 파라미터 (구 형식)
     transportation: {
       subway: "지하철역 1번 출구에서 도보 5분",
@@ -157,9 +157,9 @@ export const weddingConfig = {
   },
 
   // 슬랙 알림 설정
-  slack: {
-    webhookUrl: process.env.NEXT_PUBLIC_SLACK_WEBHOOK_URL || "",
-    channel: "#wedding-response",
-    compactMessage: true, // 슬랙 메시지를 간결하게 표시
-  },
+  // slack: {
+  //   webhookUrl: process.env.NEXT_PUBLIC_SLACK_WEBHOOK_URL || "",
+  //   channel: "#wedding-response",
+  //   compactMessage: true, // 슬랙 메시지를 간결하게 표시
+  // },
 }; 
