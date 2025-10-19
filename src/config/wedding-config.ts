@@ -13,7 +13,7 @@ interface GalleryConfig {
 export const weddingConfig = {
   // 메타 정보
   meta: {
-    title: "신랑 ❤️ 신부의 결혼식에 초대합니다",
+    title: "김경현 ❤️ 이다인의 Wedding Invitation",
     description: "결혼식 초대장",
     ogImage: "/images/ha0h-1fsi-bqt3.jpg",
     noIndex: true,
@@ -58,10 +58,9 @@ export const weddingConfig = {
     mapZoom: "15.00", // 지도 줌 레벨
     mapNaverCoordinates: "14141300,4507203,15,0,0,0,dh", // 네이버 지도 길찾기 URL용 좌표 파라미터 (구 형식)
     transportation: {
-      subway: "지하철역 1번 출구에서 도보 5분",
-      bus: "간선\n 101, 102, 103\n지선\n 1234, 5678",
+      subway: "- 지하철 2호선, 수인분당선 선릉역 5번 출구 580m \n - 지하철 2호선 역삼역 8번 출구 640m",
     },
-    parking: "건물 지하 주차장 이용 가능 (2시간 무료)",
+    parking: "건물 내 주차장 이용 가능 (1시간 30분 무료)",
     // 신랑측 배차 안내
     groomShuttle: {
       location: "신랑측 배차 출발지",
@@ -101,18 +100,18 @@ export const weddingConfig = {
 
   // 초대의 말씀
   invitation: {
-    message: "한 줄기 별빛이 되어 만난 인연\n평생을 함께 걸어가려 합니다.\n\n소중한 분들의 축복 속에\n저희 두 사람이 첫 걸음을 내딛습니다.\n\n귀한 시간 내어 함께해 주신다면\n그 어떤 축복보다 값진 선물이 될 것입니다.",
+    message: "스물셋, 스물하나였던\n경현이와 다인이가\n예쁘고 찬란하게 사랑한 순간들이 쌓여\n지금의 우리가 되었습니다.\n\n 그리고 함께 맞이하는 아홉번째 봄,\n앞으로의 모든 계절에도\n서로의 곁에서 함께하기를 약속합니다.\n따뜻한 마음으로 축하해주시면 감사하겠습니다.",
     groom: {
-      name: "신랑이름",
+      name: "김경현",
       label: "아들",
-      father: "신랑아버지",
-      mother: "신랑어머니",
+      father: "김진만",
+      mother: "정미영",
     },
     bride: {
-      name: "신부이름",
+      name: "이다인",
       label: "딸",
-      father: "신부아버지",
-      mother: "신부어머니",
+      father: "이영선",
+      mother: "한상의",
     },
   },
 
