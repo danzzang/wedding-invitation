@@ -23,9 +23,9 @@ export const weddingConfig = {
   // 메인 화면
   main: {
     title: "Wedding Invitation",
-    image: "/images/8.jpeg",
+    image: "/images/1.jpeg",
     date: "2026년 3월 22일 일요일 13시 40분",
-    venue: "선릉 상록아트홀"
+    venue: "선릉 상록아트홀 - 그랜드볼룸홍 (L층)"
   },
 
   // 소개글
@@ -46,7 +46,7 @@ export const weddingConfig = {
 
   // 장소 정보
   venue: {
-    name: "상록아트홀",
+    name: "상록아트홀 - 그랜드볼룸홀 (L층)",
     address: "서울 강남구 언주로 508 상록회관\n상록아트홀",
     tel: "02-564-5757",
     naverMapId: "상록아트홀", // 네이버 지도 검색용 장소명
