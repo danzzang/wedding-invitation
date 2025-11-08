@@ -15,7 +15,7 @@ export const weddingConfig = {
   meta: {
     title: "김경현 ❤️ 이다인의 Wedding Invitation",
     description: "결혼식 초대장",
-    ogImage: "/images/ha0h-1fsi-bqt3.jpg",
+    ogImage: "/images/8.jpeg",
     noIndex: true,
     _jwk_watermark_id: uniqueIdentifier,
   },
@@ -23,7 +23,7 @@ export const weddingConfig = {
   // 메인 화면
   main: {
     title: "Wedding Invitation",
-    image: "/images/ha0h-1fsi-bqt3.jpg",
+    image: "/images/8.jpeg",
     date: "2026년 3월 22일 일요일 13시 40분",
     venue: "선릉 상록아트홀"
   },
@@ -58,7 +58,7 @@ export const weddingConfig = {
     mapZoom: "15.00", // 지도 줌 레벨
     mapNaverCoordinates: "14141300,4507203,15,0,0,0,dh", // 네이버 지도 길찾기 URL용 좌표 파라미터 (구 형식)
     transportation: {
-      subway: "- 지하철 2호선, 수인분당선 선릉역 5번 출구 580m \n - 지하철 2호선 역삼역 8번 출구 640m",
+      subway: "- 지하철 2호선, 수인분당선 선릉역 5번 출구 580m \n - 지하철 2호선 역삼역 8번 출구 640m\n - 선릉역 5번 출구 앞 셔틀버스 운행",
     },
     parking: "건물 내 주차장 이용 가능 (1시간 30분 무료)",
     // 신랑측 배차 안내
@@ -84,17 +84,30 @@ export const weddingConfig = {
   // 갤러리
   gallery: {
     layout: "grid" as GalleryLayout, // "scroll" 또는 "grid" 선택
-    position: "bottom" as GalleryPosition, // "middle" (현재 위치) 또는 "bottom" (맨 하단) 선택
+    position: "middle" as GalleryPosition, // "middle" (현재 위치) 또는 "bottom" (맨 하단) 선택
     images: [
-      "/images/gallery/image1.jpg",
-      "/images/gallery/image2.jpg",
-      "/images/gallery/image3.jpg",
-      "/images/gallery/image4.jpg",
-      "/images/gallery/image5.jpg",
-      "/images/gallery/image6.jpg",
-      "/images/gallery/image7.jpg",
-      "/images/gallery/image8.jpg",
-      "/images/gallery/image9.jpg",
+      "/images/gallery/1.jpeg",
+      "/images/gallery/2.jpeg",
+      "/images/gallery/3.jpeg",
+      "/images/gallery/4.jpeg",
+      "/images/gallery/5.jpeg",
+      "/images/gallery/6.jpeg",
+      "/images/gallery/7.jpeg",
+      "/images/gallery/8.jpeg",
+      "/images/gallery/8-1.jpeg",
+      "/images/gallery/9.jpeg",
+      "/images/gallery/10.jpeg",
+      "/images/gallery/11.jpeg",
+      "/images/gallery/12.jpeg",
+      "/images/gallery/13.jpeg",
+      "/images/gallery/14.jpeg",
+      "/images/gallery/15.jpeg",
+      "/images/gallery/15-1.jpeg",
+      "/images/gallery/16.jpeg",
+      "/images/gallery/17.jpeg",
+      "/images/gallery/18.jpeg",
+      "/images/gallery/19.jpeg",
+      "/images/gallery/20.jpeg",
     ],
   } as GalleryConfig,
 
@@ -118,34 +131,34 @@ export const weddingConfig = {
   // 계좌번호
   account: {
     groom: {
-      bank: "은행명",
-      number: "123-456-789012",
-      holder: "신랑이름",
+      bank: "국민은행",
+      number: "86640104170101",
+      holder: "김경현",
     },
     bride: {
-      bank: "은행명",
-      number: "987-654-321098",
-      holder: "신부이름",
+      bank: "신한은행",
+      number: "110452833771",
+      holder: "이다인",
     },
     groomFather: {
-      bank: "은행명",
-      number: "111-222-333444",
-      holder: "신랑아버지",
+      bank: "신한은행",
+      number: "90504130608",
+      holder: "김진만",
     },
     groomMother: {
-      bank: "은행명",
-      number: "555-666-777888",
-      holder: "신랑어머니",
+      bank: "신한은행",
+      number: "22302251256",
+      holder: "정미영",
     },
     brideFather: {
-      bank: "은행명",
-      number: "999-000-111222",
-      holder: "신부아버지",
+      bank: "농협은행",
+      number: "45303652222832",
+      holder: "이영선",
     },
     brideMother: {
-      bank: "은행명",
-      number: "333-444-555666",
-      holder: "신부어머니",
+      bank: "국민은행",
+      number: "72210101395783",
+      holder: "한상의",
     }
   },
 
