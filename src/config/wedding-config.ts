@@ -25,7 +25,7 @@ export const weddingConfig = {
     title: "Wedding Invitation",
     image: "/images/1.jpeg",
     date: "2026년 3월 22일 일요일 13시 40분",
-    venue: "선릉 상록아트홀 - 그랜드볼룸홍 (L층)"
+    venue: "선릉 상록아트홀 - 그랜드볼룸홀 (L층)"
   },
 
   // 소개글
