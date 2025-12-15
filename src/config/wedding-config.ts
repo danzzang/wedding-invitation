@@ -24,7 +24,7 @@ export const weddingConfig = {
   main: {
     title: "Wedding Invitation",
     image: "/images/1.jpeg",
-    date: process.env.DATE,
+    date: process.env.NEXT_PUBLIC_DATE,
     venue: "선릉 상록아트홀 - 그랜드볼룸홀 (L층)"
   },
 
@@ -38,10 +38,10 @@ export const weddingConfig = {
   date: {
     year: 2026,
     month: 3,
-    day: process.env.DAY,
-    hour: process.env.HH,
-    minute: process.env.MM,
-    displayDate: process.env.DIS_DATE,
+    day: process.env.NEXT_PUBLIC_DAY,
+    hour: process.env.NEXT_PUBLIC_HH,
+    minute: process.env.NEXT_PUBLIC_MM,
+    displayDate: process.env.NEXT_PUBLIC_DIS_DATE,
   },
 
   // 장소 정보
@@ -132,32 +132,32 @@ export const weddingConfig = {
   account: {
     groom: {
       bank: "국민은행",
-      number: process.env.KH_ACCOUNT,
+      number: process.env.NEXT_PUBLIC_KH_ACCOUNT,
       holder: "김경현",
     },
     bride: {
       bank: "신한은행",
-      number: process.env.DAIN_ACCOUNT,
+      number: process.env.NEXT_PUBLIC_DAIN_ACCOUNT,
       holder: "이다인",
     },
     groomFather: {
       bank: "신한은행",
-      number: process.env.KH_DAD_ACCOUNT,
+      number: process.env.NEXT_PUBLIC_KH_DAD_ACCOUNT,
       holder: "김진만",
     },
     groomMother: {
       bank: "신한은행",
-      number: process.env.KH_MOM_ACCOUNT,
+      number: process.env.NEXT_PUBLIC_KH_MOM_ACCOUNT,
       holder: "정미영",
     },
     brideFather: {
       bank: "농협은행",
-      number: process.env.DAIN_DAD_ACCOUNT,
+      number: process.env.NEXT_PUBLIC_DAIN_DAD_ACCOUNT,
       holder: "이영선",
     },
     brideMother: {
       bank: "국민은행",
-      number: process.env.DAIN_MOM_ACCOUNT,
+      number: process.env.NEXT_PUBLIC_DAIN_MOM_ACCOUNT,
       holder: "한상의",
     }
   },
