@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+
 import { weddingConfig } from '../../../src/config/wedding-config';
 
 export async function POST(request: Request) {
