@@ -24,7 +24,7 @@ export const weddingConfig = {
   main: {
     title: "Wedding Invitation",
     image: "/images/1.jpeg",
-    date: process.env.NEXT_PUBLIC_DATE!,
+    date: "2026년 3월 22일 일요일 13시 40분",
     venue: "선릉 상록아트홀 - 그랜드볼룸홀 (L층)"
   },
 
@@ -38,10 +38,10 @@ export const weddingConfig = {
   date: {
     year: 2026,
     month: 3,
-    day: process.env.NEXT_PUBLIC_DAY,
-    hour: process.env.NEXT_PUBLIC_HH,
-    minute: process.env.NEXT_PUBLIC_MM,
-    displayDate: process.env.NEXT_PUBLIC_DIS_DATE!,
+    day: 22,
+    hour: 13,
+    minute: 40,
+    displayDate: "2026.03.22 SUN PM 13:40"
   },
 
   // 장소 정보
@@ -132,32 +132,32 @@ export const weddingConfig = {
   account: {
     groom: {
       bank: "국민은행",
-      number: process.env.NEXT_PUBLIC_KH_ACCOUNT!,
+      number: "86640104170101",
       holder: "김경현",
     },
     bride: {
       bank: "신한은행",
-      number: process.env.NEXT_PUBLIC_DAIN_ACCOUNT!,
+      number: "110452833771",
       holder: "이다인",
     },
     groomFather: {
       bank: "신한은행",
-      number: process.env.NEXT_PUBLIC_KH_DAD_ACCOUNT!,
+      number: "90504130608",
       holder: "김진만",
     },
     groomMother: {
       bank: "신한은행",
-      number: process.env.NEXT_PUBLIC_KH_MOM_ACCOUNT!,
+      number: "22302251256",
       holder: "정미영",
     },
     brideFather: {
       bank: "농협은행",
-      number: process.env.NEXT_PUBLIC_DAIN_DAD_ACCOUNT!,
+      number: "45303652222832",
       holder: "이영선",
     },
     brideMother: {
       bank: "국민은행",
-      number: process.env.NEXT_PUBLIC_DAIN_MOM_ACCOUNT!,
+      number: "72210101395783",
       holder: "한상의",
     }
   },
