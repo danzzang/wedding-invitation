@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import Image from 'next/image';
 import { weddingConfig } from '../../config/wedding-config';
@@ -8,8 +8,31 @@ import { weddingConfig } from '../../config/wedding-config';
 const watermarkId = weddingConfig.meta._jwk_watermark_id || 'JWK-NonCommercial';
 
 const MainSection = () => {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    const enableSound = () => {
+      const audio = audioRef.current;
+      if (!audio) return;
+  
+      audio.muted = false;
+      audio.play();
+      window.removeEventListener('click', enableSound);
+    };
+  
+    window.addEventListener('click', enableSound);
+  }, []);
+
+  
   return (
     <MainSectionContainer className={`wedding-container jwk-${watermarkId.slice(0, 8)}-main`}>
+      <audio
+        ref={audioRef}
+        src="/music/light.mp3"   // public/music/wedding.mp3
+        loop
+        autoPlay
+        muted
+      />
       {}
       <BackgroundImage 
         src={weddingConfig.main.image}
