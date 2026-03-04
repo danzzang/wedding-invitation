@@ -14,7 +14,7 @@ export const weddingConfig = {
   // 메타 정보
   meta: {
     title: "김경현 ❤️ 이다인의 Wedding Invitation",
-    description: "결혼식 초대장",
+    description: "2026.03.22 오후 1시 40분 - 상록아트홀",
     ogImage: "/images/8.jpeg",
     noIndex: true,
     _jwk_watermark_id: uniqueIdentifier,
@@ -72,11 +72,11 @@ export const weddingConfig = {
     },
     // 신부측 배차 안내
     brideShuttle: {
-      location: "신부측 배차 출발지",
-      departureTime: "오전 11시 출발",
+      location: "노은농수산물도매시장 제2문 앞",
+      departureTime: "오전 10시 출발",
       contact: {
-        name: "담당자명",
-        tel: "010-9876-5432"
+        name: "태평양관광 기사님",
+        tel: "010-8814-3036"
       }
     }
   },
